@@ -4,15 +4,38 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">  
         <title>INFO2180 Lab 4</title>
+        <link rel="stylesheet" href="styles.css">
         <script src="app.js"></script>
     </head>
     <body>
         <header>
+            <div class ="container">
             <h1>AVENGERS CHARACTER SEARCH</h1>
+            </div>
         </header>
         <main>
+            <div class ="container">
+                <p>Search by Full Name or Alias</p>
+                <form action="/action_page.php" id="usrform">
+                <input type="text" name="usrname">
+                <button type="submit" id="search">Search</button>
+                </form>
+                
+                <div id="result">
+                    <h2>Result</h2>
+                    <div id ="alisas"> 
+                        <h3></h3>
+                    </div>
+                    <div id="name">
+                        <h4></h4>
+                    </div>
+                    <div id="bio">
+                        <p></p>
+                    </div>
 
+                </div>
+            </div>
         </main>
-        <button id="search">Search</button>
+        
     </body>
 </html>
