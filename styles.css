@@ -4,7 +4,8 @@ header{
     margin: auto;
     width: 85%;
     font: 100% Lucida Sans, Verdana;
-    
+    background-color: blue;
+    color: antiquewhite;    
 }
 
 main{
@@ -18,9 +19,7 @@ main{
 #searchbox{
     border-bottom: 1px solid #e9e8ed;
 }
-#result{
 
-}
 .errormessage{
  color: red;
 }
