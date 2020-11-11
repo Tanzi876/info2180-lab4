@@ -32,5 +32,3 @@ window.onload=()=>{
     }
     request.send();
 }
-
-
