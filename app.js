@@ -6,7 +6,7 @@ window.onload=()=>{
     let h4=document.createElement('H4')
     let p=document.createElement('p')
     
-    request.open('GET','http://localhost:8080/superheroes.php')
+    request.open('GET','http://localhost/info2180-lab4/superheroes.php')
         
     searchbtn.onclick=function(){
         let dom =request.responseXML.getElementsByTagName("li")
